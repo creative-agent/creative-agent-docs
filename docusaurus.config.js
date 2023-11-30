@@ -9,26 +9,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Creative Agent docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Lets start building the future of web apps',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://creativeagent.xyz',
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'creative-agent', // Usually your GitHub org/user name.
   projectName: 'creative-agent-docs', // Usually your repo name.
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -44,10 +32,9 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/creative-agent/creative-agent-docs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/creative-agent/creative-agent-docs/tree/main/',
         },
-        blog: false,
+        blog:false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -61,9 +48,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Creative Agent Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Lets get started',
           src: 'img/logo.svg',
         },
         items: [
@@ -73,7 +60,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://creativeagent.xyz',
             label: 'Integration',
