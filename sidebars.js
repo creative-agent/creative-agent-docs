@@ -57,7 +57,6 @@ const sidebars = {
         },
       ],
     },
-    // next up workflows
     {
       type: 'category',
       label: 'Workflows',
@@ -76,11 +75,11 @@ const sidebars = {
           items: [
             'web-apps/best-practices',
             'web-apps/blocks',
-            'web-apps/ontrol-flow',
+            'web-apps/control-flow',
             'web-apps/ide',
             'web-apps/usage-and-billing',
             'web-apps/creative-agent-events',
-            'web-apps/souce-control-for-workflows',
+            'web-apps/source-control-for-workflows',
             'web-apps/triggers',
           ],
         },
@@ -98,7 +97,6 @@ const sidebars = {
         },
       ],
     },
-    // next up workflows
     {
       type: 'category',
       label: 'AI',
@@ -135,7 +133,6 @@ const sidebars = {
         },
       ],
     },
-    // next up ai
     {
       type: 'category',
       label: 'Data Sources',
@@ -180,7 +177,6 @@ const sidebars = {
         },
       ],
     },
-    // next up queries
     {
       type: 'category',
       label: 'Queries',
@@ -213,7 +209,6 @@ const sidebars = {
         },
       ],
     },
-    // next up organization and users
     {
       type: 'category',
       label: 'Organizations and users',
@@ -252,7 +247,6 @@ const sidebars = {
         },
       ],
     },
-    // next up self-hosted deployments
     {
       type: 'category',
       label: 'Self-hosted deployments',
@@ -261,6 +255,7 @@ const sidebars = {
           type: 'category',
           label: 'requirements',
           items: [
+            'web-apps/migrate-to-external-database',
           ],
         },
         {
@@ -303,6 +298,7 @@ const sidebars = {
           type: 'category',
           label: 'release-notes',
           items: [
+            'web-apps/migrate-to-external-database',
           ],
         },
       ],
