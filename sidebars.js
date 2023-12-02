@@ -19,52 +19,52 @@ const sidebars = {
     {
       type: 'category',
       label: 'AI Apps',
-      items: ['tutorial-basics/web-apps'],
+      items: ['web-apps', 'mobile-apps', 'external-web-apps', 'scripting-and-events', 'app-management'],
     },
     {
       type: 'category',
       label: 'Workflows',
-      items: ['tutorial-basics/web-apps'],
+      items: ['quickstart', 'concepts', 'how-to'],
     },
     {
       type: 'category',
       label: 'AI',
-      items: ['tutorial-basics/web-apps'],
+      items: ['quickstart', 'concepts', 'how-to'],
     },
     {
       type: 'category',
       label: 'Data sources',
-      items: ['tutorial-basics/web-apps'],
+      items: ['quickstart', 'concepts', 'how-to'],
     },
     {
       type: 'category',
       label: 'Queries',
-      items: ['tutorial-basics/web-apps'],
+      items: ['quickstart', 'concepts'],
     },
     {
       type: 'category',
       label: 'Organizations and users',
-      items: ['tutorial-basics/web-apps'],
+      items: ['quickstart', 'concepts'],
     },
     {
       type: 'category',
       label: 'Self-hosted deployments',
-      items: ['tutorial-basics/web-apps'],
+      items: ['requirements', 'quickstart', 'concepts', 'how-to', 'release-notes'],
     },
     {
       type: 'category',
       label: 'Source control',
-      items: ['tutorial-basics/web-apps'],
+      items: ['quickstart', 'concepts', 'how-to'],
     },
     {
       type: 'category',
       label: 'SSO',
-      items: ['tutorial-basics/web-apps'],
+      items: ['quickstart', 'concepts', 'how-to'],
     },
     {
       type: 'category',
       label: 'Creative Agent API',
-      items: ['tutorial-basics/web-apps'],
+      items: ['reference', 'how-to'],
     },
   ],
    
