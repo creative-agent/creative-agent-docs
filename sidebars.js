@@ -418,12 +418,24 @@ const sidebars = {
       items: [
         {
           type: 'category',
-          label: 'web Apps',
+          label: 'Quickstarts',
           items: [
-            'web-apps/quickstart',
-            'web-apps/tutorial',
-            'web-apps/how-to',
-            'web-apps/concepts',
+            'coming-soon',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Concepts',
+          items: [
+            'single-sign-on-sso',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'How to',
+          items: [
+            'sync-saml-group-memberships',
+            'provision-users-with-scim'
           ],
         },
       ],
@@ -435,12 +447,10 @@ const sidebars = {
       items: [
         {
           type: 'category',
-          label: 'web Apps',
+          label: 'How to',
           items: [
-            'web-apps/quickstart',
-            'web-apps/tutorial',
-            'web-apps/how-to',
-            'web-apps/concepts',
+            'automate-user-onboarding',
+            'automate-spaces-configuration',
           ],
         },
       ],
