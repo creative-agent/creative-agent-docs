@@ -19,52 +19,431 @@ const sidebars = {
     {
       type: 'category',
       label: 'AI Apps',
-      items: ['web-apps', 'mobile-apps', 'external-web-apps', 'scripting-and-events', 'app-management'],
+      items: [
+        {
+          type: 'category',
+          label: 'web apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'mobile apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'external-web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'scripting-and-events',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'app-management',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up workflows
     {
       type: 'category',
       label: 'Workflows',
-      items: ['quickstart', 'concepts', 'how-to'],
+      items: [
+        {
+          type: 'category',
+          label: 'web apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'mobile-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'external-web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'scripting-and-events',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'app-management',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up workflows
     {
       type: 'category',
       label: 'AI',
-      items: ['quickstart', 'concepts', 'how-to'],
+      items: [
+        {
+          type: 'category',
+          label: 'web Apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'mobile-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'external-web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'scripting-and-events',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'app-management',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up ai
     {
       type: 'category',
-      label: 'Data sources',
-      items: ['quickstart', 'concepts', 'how-to'],
+      label: 'Data Sources',
+      items: [
+        {
+          type: 'category',
+          label: 'web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'mobile-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'external-web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'scripting-and-events',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'app-management',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up queries
     {
       type: 'category',
       label: 'Queries',
-      items: ['quickstart', 'concepts'],
+      items: [
+        {
+          type: 'category',
+          label: 'web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'mobile-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'external-web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'scripting-and-events',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'app-management',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up organization and users
     {
       type: 'category',
       label: 'Organizations and users',
-      items: ['quickstart', 'concepts'],
+      items: [
+        {
+          type: 'category',
+          label: 'web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'external-web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'scripting-and-events',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'app-management',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up self-hosted deployments
     {
       type: 'category',
       label: 'Self-hosted deployments',
-      items: ['requirements', 'quickstart', 'concepts', 'how-to', 'release-notes'],
+      items: [
+        {
+          type: 'category',
+          label: 'mobile-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'external-web-apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'scripting-and-events',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'app-management',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up source control
     {
       type: 'category',
       label: 'Source control',
-      items: ['quickstart', 'concepts', 'how-to'],
+      items: [
+        {
+          type: 'category',
+          label: 'web Apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up sso
     {
       type: 'category',
       label: 'SSO',
-      items: ['quickstart', 'concepts', 'how-to'],
+      items: [
+        {
+          type: 'category',
+          label: 'web Apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
+    // next up creative agent api
     {
       type: 'category',
       label: 'Creative Agent API',
-      items: ['reference', 'how-to'],
+      items: [
+        {
+          type: 'category',
+          label: 'web Apps',
+          items: [
+            'web-apps/quickstart',
+            'web-apps/tutorial',
+            'web-apps/how-to',
+            'web-apps/concepts',
+          ],
+        },
+      ],
     },
   ],
    
